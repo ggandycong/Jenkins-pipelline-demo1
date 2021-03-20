@@ -1,4 +1,3 @@
-Jenkinsfile (First Pipeline)
 pipeline {
     agent { docker { image 'golang' } }
     stages {
